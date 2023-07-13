@@ -147,31 +147,28 @@ input[type=number]::-webkit-inner-spin-button{
 .img-container{
    border-top: 1px solid var(--Colorgray);
    margin: 0 auto;
-   margin-top: 2rem;
    margin-bottom: 2rem;
    width: 88%;  
+       display: flex;
+    justify-content: center;
 }
 
 
-.fa-arrow-down-long{
-   width: 40px;
-   height: 40px;
+.icon{
+   width: 70px;
+   height: 70px;
    background: var(--primaryColor);
    border-radius: 50%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: -34px;
 }
 
 
-.img-container img{
-   background-color: var(--primaryColor);
-   border-radius: 50%;
-   padding: 20px;
-   width: 20%;
-   min-width: 60px;
-   max-width: 80px;
-   transition: all .75;
-   margin-top: -30px;
-   cursor: pointer;
-}
+
 
 .img-container img:hover{
    transform: scale(1.03, 1.03);
