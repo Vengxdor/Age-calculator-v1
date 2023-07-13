@@ -1,5 +1,5 @@
 //single
-const button = document.querySelector(".img-container img")
+const button = document.querySelector(".icon")
 const check = document.querySelector("#switch")
 const container = document.querySelector(".container")
 
