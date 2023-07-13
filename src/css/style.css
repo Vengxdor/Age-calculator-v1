@@ -159,7 +159,7 @@ input[type=number]::-webkit-inner-spin-button{
    height: 70px;
    background: var(--primaryColor);
    border-radius: 50%;
-   display: flex;
+   display: flex !important;
     justify-content: center;
     align-items: center;
     color: #fff;
